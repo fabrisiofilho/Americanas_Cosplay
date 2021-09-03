@@ -1,0 +1,47 @@
+<form [formGroup]="produtoForm" (ngSubmit)="salvarProduto()">
+  <br>
+  <label for="">Nome do Produto</label>
+  <input name="nome" formControlName="nome" placeholder="Nome"type="text" required>
+  <br>
+  <label for="">Descrição</label>
+  <textarea class="input" placeholder="Digite tudo sobre o produto aqui" formControlName="descricao" rows="10" cols="60"></textarea>
+  <br>
+  <label for="">Cor</label>
+  <input name="cor" formControlName="cor" placeholder="Cor"type="text" required>
+  <br>
+  <label for="">Marca</label>
+  <input name="marca" formControlName="marca" placeholder="Marca"type="text">
+  <br>
+  <label for="">Preço</label>
+  <input name="preco" formControlName="preco" placeholder="Preço"type="number">
+  <br>
+  <label for="">Categoria</label>
+  <select class="input" name="categoria" formControlName="categoria" id="categoria">
+      <option style="color: gray;" value="">Selecione uma Categoria</option>
+      <option value="ELETRONICO">ELETRONICO</option>
+      <option value="BRINQUEDOS">BRINQUEDOS</option>
+      <option value="COMIDA">COMIDA</option>
+      <option value="MODA_MASCULINA">MODA_MASCULINA</option>
+      <option value="MODA_FEMININA">MODA_FEMININA</option>
+      <option value="LANÇAMENTO">LANÇAMENTO</option>
+      <option value="POLULAR">POLULAR</option>
+  </select>
+  <br>
+  <label for="">Link da Imagem do Produto</label>
+  <input name="urlImg" formControlName="urlImg" placeholder="Url"type="text">
+  <br>
+  <div>
+      <button class="add">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-plus-lg" viewBox="0 0 16 16">
+              <path d="M8 0a1 1 0 0 1 1 1v6h6a1 1 0 1 1 0 2H9v6a1 1 0 1 1-2 0V9H1a1 1 0 0 1 0-2h6V1a1 1 0 0 1 1-1z"/>
+            </svg>
+            Adicionar
+      </button>
+      <button class="reset" type="reset">
+          <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" class="bi bi-eraser-fill" viewBox="0 0 16 16">
+              <path d="M8.086 2.207a2 2 0 0 1 2.828 0l3.879 3.879a2 2 0 0 1 0 2.828l-5.5 5.5A2 2 0 0 1 7.879 15H5.12a2 2 0 0 1-1.414-.586l-2.5-2.5a2 2 0 0 1 0-2.828l6.879-6.879zm.66 11.34L3.453 8.254 1.914 9.793a1 1 0 0 0 0 1.414l2.5 2.5a1 1 0 0 0 .707.293H7.88a1 1 0 0 0 .707-.293l.16-.16z"/>
+            </svg>
+          Limpar
+      </button>
+  </div>
+</form>

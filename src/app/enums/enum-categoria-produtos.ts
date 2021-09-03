@@ -1,0 +1,9 @@
+export enum EnumCategoriaProdutos {
+  ELETRONICO,
+  BRINQUEDOS,
+  COMIDA,
+  MODA_MASCULINA,
+  MODA_FEMININA,
+  LANÇAMENTO,
+  POLULAR
+}

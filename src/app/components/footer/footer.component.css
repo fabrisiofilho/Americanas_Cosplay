@@ -1,0 +1,50 @@
+.footer{
+  max-width:1280px;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 8rem 8rem;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a{
+  color: black;
+  margin: 0 20px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fora{
+  margin-top:80px;
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+span{
+  color: gray;
+  font-size: 10px;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

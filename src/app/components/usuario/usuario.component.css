@@ -1,0 +1,9 @@
+.btn-topo{
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a{
+  color: white;
+}

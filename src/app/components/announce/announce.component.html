@@ -1,0 +1,23 @@
+<div class="content">
+  <div class="content-card">
+    <div class="card" *ngFor="let produto of produtos">
+      <div class="top centraliza">oferta do dia</div>
+      <div class="margina">
+        <div class="img centraliza">
+          <img width="150px" height="auto" src="{{ produto.urlImg }}" alt="{{ produto.nome }}" />
+        </div>
+        <span>{{ produto.nome }}</span>
+        <div class="valor">
+          <div class="prev"></div>
+          <div class="pro">R${{ produto.preco }},99</div>
+          <div class="aviso">12x de {{ produto.preco }}  sem juros no cartão</div>
+        </div>
+        <div class="centraliza">
+          <button value="" class="btn-compra centraliza">
+            Comprar
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

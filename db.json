@@ -1,0 +1,16 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Smartphone Motorola Moto G30 128GB 4G Wi-Fi Tela 6.5'' Dual Chip 4GB RAM Câmera Quádrupla + Selfie 13MP - Dark Prism",
+      "descricao": "O Moto G30 é um smartphone completo, perfeito para você que busca design moderno e alto desempenho em um único aparelho. Sua tela Touchscreen de 6.5\" é ideal para reproduzir filmes, imagens e jogos com cores mais nítidas. ",
+      "avaliação": null,
+      "cor": "dark prism",
+      "marca": "Motorola",
+      "preco": 1.319,
+      "categoria": "ELETRONICO",
+      "urlImg": "https://images-americanas.b2w.io/produtos/01/00/img/2917265/1/2917265140_1GG.jpg"
+    }
+  ],
+  "usuarios": []
+}
