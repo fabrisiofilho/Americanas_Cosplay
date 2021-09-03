@@ -13,7 +13,7 @@
           <div class="aviso">12x de {{ produto.preco }}  sem juros no cartão</div>
         </div>
         <div class="centraliza">
-          <button value="" class="btn-compra centraliza">
+          <button class="btn-compra centraliza" (click)="adicionarAoCarrinho(produto)">
             Comprar
           </button>
         </div>

@@ -16,6 +16,7 @@ import { RouterModule } from '@angular/router';
 import { ROUTES } from './app.routes';
 import { FooterComponent } from './components/footer/footer.component';
 import { CadastrarComponent } from './components/cadastrar/cadastrar.component';
+import { CadstrarUsuarioComponent } from './components/cadstrar-usuario/cadstrar-usuario.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { CadastrarComponent } from './components/cadastrar/cadastrar.component';
     HomeComponent,
     FooterComponent,
     CadastrarComponent,
+    CadstrarUsuarioComponent
   ],
   imports: [
     BrowserModule,

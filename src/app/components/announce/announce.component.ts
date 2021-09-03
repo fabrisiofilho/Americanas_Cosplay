@@ -29,4 +29,8 @@ export class AnnounceComponent implements OnInit {
     );
   }
 
+  adicionarAoCarrinho(produto: Produto){
+    
+  }
+
 }
